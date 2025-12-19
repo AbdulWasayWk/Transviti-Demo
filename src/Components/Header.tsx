@@ -2,6 +2,7 @@ import { AppBar, Avatar, Box, Container, Typography } from "@mui/material";
 import ActionButton from "./ActionButton";
 import SearchField from "./SearchField";
 import CompanyLogo from "./CompanyLogo";
+import headerImage from "../assets/header_profile_picture.png";
 
 const headings = ["Find Jobs", "Top Companies", "Job Tracker", "My Calendar", "Documents", "Messages", "Notifications"];
 
@@ -38,7 +39,7 @@ export default function Header() {
 				))}
 				<SearchField />
 				<ActionButton label="Resume Builder" />
-				<Avatar alt="AV" src="/src/assets/header_profile_picture.png" />
+				<Avatar alt="AV" src={headerImage} />
 			</Container>
 		</AppBar>
 	);

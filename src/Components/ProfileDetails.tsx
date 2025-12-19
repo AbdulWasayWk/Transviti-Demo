@@ -1,4 +1,6 @@
 import { Avatar, Box, Card, CardContent, Typography } from "@mui/material";
+import profileBackground from "../assets/profile_background_image.png";
+import profilePicture from "../assets/profile_picture.png";
 
 export default function ProfileDetails() {
 	return (
@@ -16,14 +18,14 @@ export default function ProfileDetails() {
 				sx={{
 					width: "100%",
 					height: 100,
-					backgroundImage: "url('/src/assets/profile_background_image.png')", // replace with your cover image
+					backgroundImage: `url(${profileBackground})`,
 					backgroundSize: "cover",
 					backgroundPosition: "center",
 					position: "relative",
 				}}
 			>
 				<Avatar
-					src="/src/assets/profile_picture.png" // replace with your avatar image
+					src={profilePicture}
 					alt="Albert Flores"
 					sx={{
 						width: 100,
