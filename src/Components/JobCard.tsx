@@ -1,6 +1,6 @@
 import { Card, CardContent, Typography, IconButton, Box } from "@mui/material";
 import TeamsIcon from "./TeamsIcon";
-import LocationIcon from "./locationIcon";
+import LocationIcon from "./LocationIcon";
 import ClockIcon from "./ClockIcon";
 import BookmarkIcon from "./BookmarkIcon";
 import ActionButton from "./ActionButton";
