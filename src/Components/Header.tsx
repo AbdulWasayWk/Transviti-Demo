@@ -10,7 +10,7 @@ export default function Header() {
 	return (
 		<AppBar position="static" elevation={0}>
 			<Container
-				maxWidth="xl"
+				maxWidth={false}
 				sx={{
 					widows: "100%",
 					height: "70px",
