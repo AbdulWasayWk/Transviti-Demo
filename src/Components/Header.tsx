@@ -17,7 +17,7 @@ export default function Header() {
 					backgroundColor: "white",
 					display: "flex",
 					gap: "25px",
-					justifyContent: "center",
+					justifyContent: "space-evenly",
 					alignItems: "center",
 				}}
 			>
