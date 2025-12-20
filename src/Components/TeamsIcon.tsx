@@ -6,5 +6,5 @@ interface TeamsIconProps {
 }
 
 export default function TeamsIcon({ width, height }: TeamsIconProps) {
-	return <img width={width} height={height} src={TeamsImage}></img>;
+	return <img width={width} height={height} src={TeamsImage} loading="lazy" />;
 }

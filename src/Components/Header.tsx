@@ -32,6 +32,7 @@ export default function Header() {
 							fontSize: "16px",
 							color: index === 0 ? "#0154AA" : "#737A91",
 							fontWeight: index === 0 ? 600 : 500,
+							cursor: "pointer",
 						}}
 					>
 						{item}
@@ -39,7 +40,15 @@ export default function Header() {
 				))}
 				<SearchField />
 				<ActionButton label="Resume Builder" />
-				<Avatar alt="AV" src={headerImage} />
+				<Avatar
+					alt="AV"
+					src={headerImage}
+					slotProps={{
+						img: {
+							loading: "lazy",
+						},
+					}}
+				/>
 			</Container>
 		</AppBar>
 	);

@@ -35,6 +35,11 @@ export default function ProfileDetails() {
 						left: "50%",
 						transform: "translateX(-50%)",
 					}}
+					slotProps={{
+						img: {
+							loading: "lazy",
+						},
+					}}
 				/>
 			</Box>
 

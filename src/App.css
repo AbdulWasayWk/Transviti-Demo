@@ -2,4 +2,19 @@ body,
 html {
 	margin: 0;
 	padding: 0;
+	font-family: "NeueHaasGroteskDisplayPro", sans-serif;
+}
+
+@font-face {
+	font-family: "NeueHaasGroteskDisplayPro";
+	src: url("./assets/fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayMediu.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NeueHaasGroteskDisplayPro";
+	src: url("./assets/fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
 }
